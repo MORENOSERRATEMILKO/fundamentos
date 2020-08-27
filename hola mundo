@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+
+// se leyÛ otra variable con >>.
+
+int main() {
+	cout << "hola mundo" << endl;
+	cout << "profe tengo que agregarle texto por que si no no guarda, pseint no funciona muy bien en mi computadora :c va a disculpar ignore esta parte saludos ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" << endl;
+	return 0;
+}
