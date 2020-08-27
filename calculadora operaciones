@@ -1,0 +1,82 @@
+// Este codigo ha sido generado por el modulo psexport 20180802-mac de PSeInt.
+// Es posible que el codigo generado no sea completamente correcto. Si encuentra
+// errores por favor reportelos en el foro (http://pseint.sourceforge.net).
+
+#include<iostream>
+#include<cmath>
+using namespace std;
+
+// Para leer variables de texto se utiliza el operador << del objeto cin, que
+// lee solo una palabra. Para leer una linea completa (es decir, incluyendo los
+// espacios en blanco) se debe utilzar getline (ej, reemplazar cin>>x por
+// getline(cin,x)), pero obliga a agregar un cin.ignore() si antes del getline
+// se leyÛ otra variable con >>.
+
+int main() {
+	float a;
+	float b;
+	float num;
+	int op;
+	cout << "ELIJA UNA OPERACION" << endl;
+	cout << "1) sumar" << endl;
+	cout << "2) restar" << endl;
+	cout << "3) multiplicar" << endl;
+	cout << "4) dividir" << endl;
+	cout << "5) potenciar" << endl;
+	cout << "6) salir" << endl;
+	cin >> op;
+	switch (op) {
+	case 1:
+		cout << "suma" << endl;
+		cout << "ingrese primer digito" << endl;
+		cin >> a;
+		cout << "ingrese segundo digito" << endl;
+		cin >> b;
+		cout << "reslutado" << endl;
+		cout << a+b << endl;
+		break;
+	case 2:
+		cout << "resta" << endl;
+		cout << "ingrese primer digito" << endl;
+		cin >> a;
+		cout << "ingrese segundo digito" << endl;
+		cin >> b;
+		cout << "resultado" << endl;
+		cout << a-b << endl;
+		break;
+	case 3:
+		cout << "multiplicacion" << endl;
+		cout << "ingrese primer digito" << endl;
+		cin >> a;
+		cout << "ingrese segundo digito" << endl;
+		cin >> b;
+		cout << "resultado" << endl;
+		cout << a*b << endl;
+		break;
+	case 4:
+		cout << "divicion" << endl;
+		cout << "ingrese un primer digito" << endl;
+		cin >> a;
+		cout << "ingrese divisor" << endl;
+		cin >> b;
+		cout << "resultado" << endl;
+		cout << a/b << endl;
+		break;
+	case 5:
+		cout << "potencia" << endl;
+		cout << "ingrese un digito" << endl;
+		cin >> a;
+		cout << "ingrese exponente" << endl;
+		cin >> b;
+		cout << "resultado" << endl;
+		cout << pow(a,b) << endl;
+		break;
+	case 6:
+		cout << "salir" << endl;
+		num = 2;
+		break;
+	default:
+		cout << "ingrese una opcion valida" << endl;
+	}
+	return 0;
+}
