@@ -1,0 +1,20 @@
+
+
+#include<iostream>
+using namespace std;
+
+
+
+// MILKOMORENO
+int main() {
+	float d;
+	float j;
+	float s;
+	cout << "Ingrese la cantidad de dias de trabajo" << endl;
+	cin >> d;
+	cout << "Cuanto ganas por jornada" << endl;
+	cin >> j;
+	s = d*j;
+	cout << "Su salario es:" << s << endl;
+	return 0;
+}
