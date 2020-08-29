@@ -1,0 +1,29 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+
+
+
+// MILKOMORENO
+int main() {
+	float cf;
+	float ci;
+	float i;
+	float n;
+	// cf=ci(1+i)^n
+	// cf capital FinAlgoritmo
+	// ci capital inicial
+	// i tasa de interes
+	// n periodo de ahorro
+	cout << "CALCULADOR DE INTERES COMPUESTO ANUAL" << endl;
+	cout << "Ingrese el monto inicial prestado" << endl;
+	cin >> ci;
+	cout << "tasa de interes " << endl;
+	cin >> i;
+	cout << "periodo del ahorro " << endl;
+	cin >> n;
+	cf = ci*pow((1+i),n);
+	cout << "el interes compuesto anual es :" << cf << endl;
+	return 0;
+}
+
