@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+int main() {
+	float ef;
+	float nf;
+	float p;
+	float p1;
+	float p2;
+	float p3;
+	float pf;
+	// 3. Construir un algoritmo para calcular la nota de final de un alumno 
+	// sabiendo que rindiÛ 3 ex·menes parciales ponderados como 40 puntos, 
+	// un examen final de 40 puntos, un proyecto final de 20 puntos. 
+	// La nota final es la suma de los tres conceptos.
+	cout << "CALCULADOR DE NOTA FINAL" << endl;
+	cout << "INGRESE SU NOTA DEL PRIMER PARCIAL" << endl;
+	cin >> p1;
+	cout << "INGRESE SU NOTA DEL SEGUNDO PARCIAL" << endl;
+	cin >> p2;
+	cout << "INGRESE SU NOTA DEL TERCER PARCIAL" << endl;
+	cin >> p3;
+	cout << "INGRESE SU NOTA DE SU EXAMEN FINAL" << endl;
+	cin >> ef;
+	cout << "INGRESE SU NOTA DE SU PROYECTO FINAL" << endl;
+	cin >> pf;
+	p = ((p1+p2+p3)/3)*0.4;
+	ef = ef*0.4;
+	pf = pf*0.2;
+	nf = p+ef+pf;
+	cout << "SU NOTA FINAL ES " << nf << endl;
+	return 0;
+}
+
