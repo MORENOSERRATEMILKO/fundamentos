@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+
+
+int main() {
+	float a;
+	// 1. Construir un programa que permita convertir una hora dada 
+	// en formato de 24 horas (hora, minuto, segundo) a su equivalente en 
+	// formato de 12 horas (AM o PM). Por ejemplo si se introduce 14, 45, 10 (formato de 24 horas)
+	// , debe imprimirse 2, 45, 10 PM (formato 12 horas).
+	cout << "TRANSFORMADOR DE 24HRS A 12HRS" << endl;
+	cout << "ESCRIBA LA HORA EN FORMATO DE 24HRS" << endl;
+	cout << " EJEMPLO: SI SON LAS 13:50 ESCRIBA 13.50" << endl;
+	cin >> a;
+	if (a>13) {
+		a = a-12;
+		cout << "SON LAS " << a << endl;
+		cout << "PM" << endl;
+	} else {
+		a = a;
+		cout << "SON LAS" << a << endl;
+		cout << "AM" << endl;
+	}
+	return 0;
+}
