@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main() {
+	float a;
+	float c;
+	float d;
+	float r;
+	float v;
+	cout << "Calculador de la circunferencia, el ·rea y el volumen de una esfera" << endl;
+	cout << "Ingrese el diametro" << endl;
+	cin >> d;
+	r = d/2;
+	a = (3.14)*r*r;
+	c = 2*(3.14)*r;
+	v = (4/3)*(3.14)*(r*r*r);
+	cout << "el radio es " << r << endl;
+	cout << "el aerea es " << a << endl;
+	cout << "la circunferencia es " << c << endl;
+	cout << "el volumen es " << v << endl;
+	return 0;
+}
+
