@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+
+int main() {
+	float c;
+	float f;
+	float x;
+	float z;
+	cout << "Calculador la soluciÛn de un sistema de dos ecuaciones con 2 variables<-" << endl;
+	cout << "ecuacion a:  8x+7z=?" << endl;
+	cout << "ecuacion b:  10x+36z=?" << endl;
+	cout << "Escriba X" << endl;
+	cin >> x;
+	cout << "escriba z" << endl;
+	cin >> z;
+	c = 8*x+7*z;
+	f = 10*x+36*z;
+	cout << "solucion de la ecuacion a:  " << c << endl;
+	cout << "solucion de la ecuacion b:  " << f << endl;
+	return 0;
+}
