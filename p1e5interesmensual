@@ -1,0 +1,22 @@
+
+#include<iostream>
+using namespace std;
+// MILKOMORENO
+int main() {
+	float c;
+	float i;
+	float ti;
+	float tm;
+	cout << "CALCULADOR DE INTERES ANUAL" << endl;
+	// interes=capital*tasadeinteres*tiempo
+	cout << "Ingrese el monto prestado en bs." << endl;
+	cin >> c;
+	cout << "tasa de interes (escriba 0._)" << endl;
+	cin >> ti;
+	cout << "tiempo transcurrido (anualmente)" << endl;
+	cin >> tm;
+	i = (c*ti*tm);
+	cout << "el interes anual es : bs." << i << endl;
+	return 0;
+}
+
