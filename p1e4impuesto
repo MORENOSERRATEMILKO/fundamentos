@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+    string nombre;
+    int h,p,t, total ;
+    
+    cout << "ingrese su nombre sin espacios" << endl;
+    cin >> nombre;
+    cout << "horas que trabaja mensual" << endl;
+    cin >> h;
+    cout << "cuanto gana por hora" << endl;
+    cin >> p;
+    
+    t=h*p;
+    total=t+(t*0.13);
+    
+    if (t>=8272) {
+        cout << "te qe pagar porpuestos  va bs.:" << endl;
+        cout << total << endl;
+    }
+    else
+    {
+        cout << "ud no paga impuestos:" << endl;
+        cout << t << endl;
+    }
+    
+    return 0;
+}
