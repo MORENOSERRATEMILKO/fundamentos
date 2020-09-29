@@ -1,0 +1,19 @@
+#include <iostream>
+#include "math.h"
+using namespace std;
+int main()
+
+{
+    int n=0, suma=0 ;
+    cout<<"Ingrese cuanto valores quiere calcular: "<< endl;
+    cin>>n;
+    for (int i=1;i<=n;i++)
+    {
+        suma = suma + pow(i,2);
+
+    }
+    cout<<"La suma de cuadrados hasta "<<n<<" es:"<<suma<<endl;
+
+        system("PAUSE");
+     return 0;
+    }
