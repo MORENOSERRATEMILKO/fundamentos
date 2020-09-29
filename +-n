@@ -1,0 +1,26 @@
+#include <iostream> 
+#include "math.h" 
+using namespace std; 
+int main () 
+{
+double suma=0;
+int n; 
+cout<<"Ingrese cuantos valores quiere calcular: "; 
+cin >> n;
+
+for (int i=1;i<=n;i++)
+{ 
+    if(i %2 ==0)
+    {
+        suma = suma - i;
+    }
+        else
+        { 
+            suma = suma + i; 
+
+        }
+}
+        cout<<"La suma de "<<n<<" es: "<<suma<<endl; 
+
+        return 0;
+}
